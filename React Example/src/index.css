@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+/* Configure source files for content detection */
+@source "./index.html";
+@source "./src/**/*.{js,ts,jsx,tsx}";
+
+/* Bates Theme Variables */
+:root {
+  --fontSerif: "Sabon Next W01";
+  --fontSansSerif: "Neue Frutiger W01";
+  --colorGarnet: hsl(350, 78%, 30%);
+  --colorGarnet_bright: hsl(351, 80%, 34%);
+  --colorGarnet_dark: hsl(349, 98%, 18%);
+  --colorGarnet_dark2: hsl(350, 97%, 12%);
+  --colorGray: hsl(0, 0%, 44%);
+  --colorGray_light: hsl(0, 0%, 94%);
+  --colorBlue: hsl(198, 86%, 27%);
+  --colorBlue_bright: hsl(195, 61%, 46%);
+  --colorBlue_dark: hsl(198, 94%, 14%);
+  --colorBlue_light: hsl(192, 95%, 80%);
+  --colorGreen: hsl(57, 66%, 22%);
+  --colorGreen_bright: hsl(55, 60%, 44%);
+}
+
+/* Theme configuration using CSS variables */
+@theme {
+  /* You can customize theme variables here */
+  --font-sans: system-ui, -apple-system, sans-serif;
+  --spacing: 0.25rem;
+}
+
+/* Global Styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 0;
+  width: 100%;
+}
+
+body {
+
+  background-color: rgb(243 244 246);
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
