@@ -91,7 +91,7 @@ In this example, I have provided the HTML script from my website for The Cage. I
 Cascade Sheet Style is used to define the look and feel of a website. With CSS, we can control things like layout spacing, colors, animations, fonts, and screen size behaviors. CSS can be applied inline in an HTML document using a `<style>` tag or can be called from a .css file, which can be helpful for maintaining consistency and improving readability of the HTML script. 
 
 
-See full CSS file used for The Cage Website [HERE](./blob/main/CSS_Example/cagestyle.css)
+See full CSS file used for The Cage Website [HERE](https://github.com/micahsheats/DCS325-Portfolio/blob/main/CSS_Example/cagestyle.css)
 ```bash
 
 :root {
@@ -385,7 +385,7 @@ In looking through my work for the semester, I couldn’t find any examples of B
 **Tool Description:**
 Tailwind is a utility-first CSS framework that allows you to style elements directly in HTML using predefined classes. This approach to stylization promotes speed and flexibility by bypassing the need to write a custom CSS class for every component.
 
-See full code for these Tailwind CSS examples [HERE](./blob/main/Tailwind_CSS_Example/build/index.html)
+See full code for these Tailwind CSS examples [HERE](https://github.com/micahsheats/DCS325-Portfolio/tree/main/Tailwind_CSS_Example)
 
 ``` bash
     <link href="./output.css" rel="stylesheet">
