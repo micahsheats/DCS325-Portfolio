@@ -485,7 +485,7 @@ Find my full reading notes [HERE](./Krug_Reading_Notes/notes.pdf)
 ![design for user experience example](./Krug_Reading_Notes/krug.png)
 
 
-These principles were best applied when we created our final project: a worksheet for potential and current DCS majors. This site exemplifies the principles of the book by being intuitive to the user and not making the user think anymore than they need to in order to navigate the site. We did this by putting the information in a logical order, breaking the page up into clearly defined hierarchies, having all parts of the site no more than one or two clicks away from the index, and providing brief and unavoidable guidance when it was necessary and relevant such as the warnings when a class could only be used to fufuill two of the four methods but was catagorized under more. 
+These principles were best applied when we created our final project: a worksheet for potential and current DCS majors. This site exemplifies the principles of the book by being intuitive to the user and not making the user think anymore than they need to in order to navigate the site. We did this by putting the information in a logical order, breaking the page up into clearly defined hierarchies, having all parts of the site no more than one or two clicks away from the index, and providing brief and unavoidable guidance when it was necessary and relevant such as the warnings when a class could only be used to fufill two of the four methods but was catagorized under more. 
 
 
 
@@ -494,7 +494,7 @@ These principles were best applied when we created our final project: a workshee
 ### Accessibility
 
 **Description:**
-Programming for ccessibility ensures that websites are usable by people with disabilities or assistive technologies. There are several ways in which we incorporated programming for accessibility throughout the course, including semantic HTML, alternate text for images, keyboard navigation support so that someone with limited or no mouse capabilities can tab through the site, screenreader labels, and ARIA attributes.  
+Programming for accessibility ensures that websites are usable by people with disabilities or assistive technologies. There are several ways in which we incorporated programming for accessibility throughout the course, including semantic HTML, alternate text for images, keyboard navigation support so that someone with limited or no mouse capabilities can tab through the site, screenreader labels, and ARIA attributes.  
 
 **Using the Colorblindly Chrome extension to test our final project:**
 
@@ -574,7 +574,7 @@ export const SnakeGame: React.FC = () => {
 
 
 **Example Explanation:**
-The above example is a website that I built solely through prompts to the cursor. When building this, Cursor was able to take an image of the Apple Store home screen and apply the style to the site, as well as include a fully functional game of Snake. In total, the site took probably 10 minutes to complete, far less than if I were to build it myself. 
+The above example is a website that I built solely through prompts to Cursor. When building this, Cursor was able to take an image of the Apple Store home screen and apply the style to the site, as well as include a fully functional game of Snake. In total, the site took probably 10 minutes to complete, far less than if I were to build it myself. 
 
 
 
@@ -617,7 +617,7 @@ const analytics = getAnalytics(app);
 ```
 
 **Example Explanation:**
-This code is what is used to connect the web app on the front end to Google Firebases backend. This connection allows for things like authentication and analytics in a project, which can be useful from real-time user analytics to training AI models. 
+This code is what is used to connect the web app on the front end to Google Firebases backend. This connection allows for things like authentication and analytics in a project, which can be useful for everything from real-time user analytics to training AI models. 
 
 
 
@@ -625,7 +625,7 @@ This code is what is used to connect the web app on the front end to Google Fire
 ## Reflection Questions
 ##### What was your experience in using React+Vite for building web apps compared to "rolling your own" using HTML, CSS, & JavaScript?
 
-- I enjoyed both in separate ways. First, I enjoyed rolling out my own because it was relatively intuitive, as we had to learn and build everything from the ground up. I also enjoyed using React, however, because of the automated aspect and pre-packaged things we could use to make the website look good. React was also much harder for me to understand, however, so that was a negative because it caused much more stress. In all, though, I would definitely trend towards a React app should I try to build something after this class.  
+- I enjoyed both in separate ways. First, I enjoyed rolling out my own because it was relatively intuitive, as we had to learn and build everything from the ground up. I also enjoyed using React, however, because of the automated aspect and pre-packaged things we could use to make the website look good. React was also much harder for me to understand though, so that was a negative because it caused much more stress. In all,I would definitely trend towards a React app should I try to build something after this class.  
 
 
 
@@ -640,7 +640,7 @@ This code is what is used to connect the web app on the front end to Google Fire
 
 ##### In what ways did the different design sprints, and use of Figma, help you in thinking about what an end product should look like and how it should function?
 
-- The design sprints and Figma were great for solidifying ideas before beginning to code. Coding often feels very intimidating to me, so having a plan going in of exactly what needs to be done and what the final product should look like was really helpful for overcoming that. Furthermore, creating the prototypes gave us time to discuss concepts and flesh out ideas rather than having to make adjustments in the middle of creating the actual product. 
+- The design sprints and Figma were great for solidifying ideas before beginning to code. Coding often feels very intimidating to me, so having a plan going in of exactly what needs to be done and what the final product should look like was really helpful for overcoming that. Furthermore, creating the prototypes gave us time to discuss concepts and flesh out ideas rather than trying to make adjustments in the middle of creating the actual product. 
 
 
 ##### What takeaways do you have from working with AI/LLMs through Cursor (or similar) in building web applications?
