@@ -498,7 +498,7 @@ Programming for accessibility ensures that websites are usable by people with di
 
 **Using the Colorblindly Chrome extension to test our final project:**
 
-![Image of Colorblindly in action](./Accessability_Example/colorblindly.png)
+![Image of Colorblindly in action](./Accessibility_Example/colorblindly.png)
 
 
 **Example Explanation:**
