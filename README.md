@@ -477,7 +477,7 @@ Similar to the Bootstrap example, I didn’t like any of my previous creations w
 Throughout the semester, we read Steven Krug's book Design for User Experience. This book discusses principles that should be followed in website design so as to allow the user to navigate it without confusion or unnecessary clicks. 
 
 
-Find my full reading notes [HERE](/Users/micahsheats/Desktop/DCS325Final-1/Krug Reading Notes/Sheats_Dont Make Me Think Reading Notes (2).pdf)
+Find my full reading notes [HERE](./Krug_Reading_Notes/Sheats_Dont Make Me Think Reading Notes (2).pdf)
 
 
 ![design for user experience example](./Krug_Reading_Notes/krug.png)
