@@ -1,15 +1,16 @@
+**Micah Sheats**
 
+**Apr 21, 2025**
 
-
+**DCS 325**
 
 
 ### HTML 
-See this HTML code in action HERE
-
 
 **Tool Description:**
+Hypertext Markup Language is essentially the backbone of most web applications. It is what structures content on a website using a system of nested tags like `<head>`, `<body>`, `<div>`, `<h1>`, and `<p>`. etc to “markup” sections. This ensures browsers and other assistive technologies can understand the content’s hierarchies and purpose. 
 
-
+See this HTML code in action [HERE](https://msheats.bates-catapult.net/index.html)
 ```bash
 
 <!DOCTYPE html>
@@ -69,15 +70,19 @@ See this HTML code in action HERE
 </html>
 
 ```
----
+
+**Example Explanation:**
+
+In this example, I have provided the HTML script from my website for The Cage. I chose this as the example because it does a good job of exemplifying the standard HTML elements, including `<head>`, `<body>`, `<div>`, `<ul>`, and `<p>`. Through these elements, we organized the information to be visually appealing and have a thoughtful layout, which makes sense to the user on the full site. 
+
 
 ### CSS (Cascading Sheet Style)
 
-See full CSS file used for The Cage Website HERE
-
-
 **Tool Description:**
+Cascade Sheet Style is used to define the look and feel of a website. With CSS, we can control things like layout spacing, colors, animations, fonts, and screen size behaviors. CSS can be applied inline in an HTML document using a `<style>` tag or can be called from a .css file, which can be helpful for maintaining consistency and improving readability of the HTML script. 
 
+
+See full CSS file used for The Cage Website HERE
 ```bash
 
 :root {
@@ -138,14 +143,17 @@ body {
 
 ```
 
+**Example Explanation:**
+This example comes from the .css file for the cage website which is demoed in the HTML example above. In this file, we defined several global variables using `:root` which makes it easy to maintain consistent styling across the website. We also used variables like `--main-hover-color` to create interactive changes to the website as the user moved their mouse across things like buttons and links. Finally, we created variables such as `.content-section` and defined key style properties such as margin, padding, background color, etc., to neatly organize the content section of the page when applied. 
 
 
 ### JS (JavaScript)
 
-See this JS code in action HERE
-
 **Tool Description:**
+JavaScript is a tool that brings interactivity and logic to webpages. JS allows for the page to respond to user actions without reloading the page, allowing for things like pop-ups, animations, and dropdown menus. Essentially, JS allows for webpages to go from static to dynamic and interactive. 
 
+
+See this JS code in action [HERE](https://micahsheats.github.io/JS_examp/js-example/).
 ```bash
 "use strict";
 
@@ -214,10 +222,15 @@ box.addEventListener("mousemove", handleMouseMove);
 
 ```
 
+**Example Explanation:**
+I chose the above JS example because of how well it demonstrates the interactive behavior on a webpage. It combines event handling, state management, and DOM manipulation in an interactive way. Namely, it uses things like the recolorbox box to change the background color each time it is clicked. It also uses features such as `toggleFollowMouse` to switch whether the circle follows the mouse everywhere or just in the box. Finally, showcases a function that handles mouse movements, where the circle positioning is updated based on the movements of the mouse. 
+
 
 ### ssh & scp (w/ ssh keys)
 
 **Tool Description:**
+Secure Shell allows for secure remote access and file transfer. This protocol allows for the user to securely log into a remote computer over a network as if the computer were physically present. This tool uses cryptography and a set of public and private keys to encrypt communications such that it can’t be accessed without the proper keys. 
+
 
 
 Key Creation
@@ -256,14 +269,17 @@ Last login: Sun Sep 24 14:08:37 2023
 $
 ```
 
-
+**Example Explanation:**
+This example showcases generating a secure key pair with ssh in terminal. The command ssh-keygen create a public and private key pair which can then be used in the manner described above. By using SSH, we reduce reliance on passwords and greatly simplify repeated access to remote environments. 
 
 
 ### React (w/ components)
 
 **Tool Description:**
+React is a powerful JavaScript library that was developed by Facebook in 2015. This library allows developers to build component-based interfaces, greatly streamlining the development process. In this library, each piece of the UI is stored in reusable components, which are then responsible for rendering a part of the user interface. This modular structure makes codebases easier to build and maintain. 
 
-See this React code example in action HERE
+
+See this React code example in action [HERE](https://tommo.bates-catapult.net/majorProto2/)
 
 ```bash
 const CourseDonutChart: React.FC<CourseDonutChartProps> = ({ 
@@ -294,260 +310,339 @@ const CourseDonutChart: React.FC<CourseDonutChartProps> = ({
   };
 ```
 
+**Example Explanation:**
+This example comes from our final project, which is a worksheet for potential and current DCS majors to help them understand possible paths to completing the major. I chose this example because it shows component-based design of React with things like the CourseDonutChart, which accepts props(used for passing data), making it reusable anywhere in the app. This example also shows how React can use props to calculate values and update visual representations dynamically. 
+
 
 
 ### Bootstrap
 
 **Tool Description:**
+Bootstrap is a widely used frontend framework that provides developers with pre-designed CSS and JS components such as buttons, menus, and alerts. Its features include a responsive grid system which helps developers to build mobile-friendly sites while avoiding writing exapansive CSS scripts. Bootstrap's open-source library offers out-of-the-box templates and styles that can be easily incorporated into a design. 
 
-See this bootstrap code example in action HERE
+See this Bootstrap code example in action [HERE](https://micahsheats.github.io/bootstrap/#)
 
-```bash
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+``` bash
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+```
 
+``` bash
+   <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Bootstrap Demo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 ```
 
 ```bash
-<Navbar expand="lg" className="bg-body-tertiary">
-  <Container>
-    <Navbar.Brand href="https://www.bates.edu">
-      <img
-        src="./src/images/bobcat.png"
-        width="80"
-        height="80"
-        className="d-inline-block align-top"
-        alt="React Bootstrap logo"
-      />
-    </Navbar.Brand>
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    <Navbar.Collapse id="basic-navbar-nav">
-      ...
-    </Navbar.Collapse>
-  </Container>
-</Navbar>
+                <div class="col-md-4">
+                    <h5>Button Styles</h5>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-primary">Primary</button>
+                        <button class="btn btn-outline-secondary">Secondary</button>
+                        <button class="btn btn-success">Success</button>
+                    </div>
 ```
+
+```bash
+        <div class="container">
+            <h2 class="text-center mb-5">Bootstrap Components</h2>
+            <div class="row g-4">
+                <!-- Cards -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">Featured Card</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card Component</h5>
+                            <p class="card-text">Cards are flexible content containers that include options for headers, footers, images, and more.</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Open Modal
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+```
+
+**Example Explanation:**
+In looking through my work for the semester, I couldn’t find any examples of Bootstrap for this portfolio that I wanted to showcase, so I worked with Copilot to create this demo. In this demo, I exemplify several Bootstrap classes, including navbar, btn, and card, to show how easy it is to make a good-looking site with minimal code. I also show how classes like the buttons can be stylized in different ways to allow for flexibility to get to the specific style you are looking for.
 
 
 ### Tailwind CSS
 
+**Tool Description:**
+Tailwind is a utility-first CSS framework that allows you to style elements directly in HTML using predefined classes. This approach to stylization promotes speed and flexibility by bypassing the need to write a custom CSS class for every component.
+
+See full code for these Tailwind CSS examples HERE
+
 ``` bash
-
-<body class="min-h-screen bg-white dark:bg-slate-900 p-6">
-    <!-- Header Section with Dark Mode Toggle -->
-    <header class="max-w-screen container mx-4 flex justify-between items-center">
-        <h1 class="text-xl font-extrabold text-slate-900 dark:text-white">Tailwind CSS Demo</h1>
-        <button id="toggleDark" 
-            class="px-4 py-2 text-sm font-medium bg-brightamber rounded-md hover:bg-amber-700 transition-colors duration-200"
-            onClick="document.body.classList.toggle('dark')"
-        >Toggle Dark Mode</button>
-    </header>
-
-    <!-- Main content -->
-    <main class="container mx-auto mt-8">
-        <!-- Section 1: Responsive Grid Layout -->
-        <section class="mb-12">
-            <div class="card">
-                <h2 class="text-lg font-medium text-slate-900 dark:text-white mb-4">1. Responsive Grid Layout</h2>
-                <p class="mb-4">Tailwind makes creating responsive layouts simple using breakpoint prefixes.</p>
-                
-                <!-- Responsive grid that changes from 1 column on mobile to 3 columns on desktop -->
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
-                    <div class="bg-teal-200 dark:bg-teal-200/50 p-6 rounded-lg shadow">
-                        <h3>Card 1</h3>
-                        <p>This grid automatically adjusts based on screen size.</p>
-                    </div>
-                    <div class="bg-teal-200 dark:bg-teal-200/50 p-6 rounded-lg shadow">
-                        <h3>Card 2</h3>
-                        <p>On mobile, cards stack vertically.</p>
-                    </div>
-                    <div class="bg-teal-200 dark:bg-teal-200/50 p-6 rounded-lg shadow">
-                        <h3>Card 3</h3>
-                        <p>On desktop, they display in a row.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Section 2: Custom Components with Tailwind -->
-        <section class="mb-12">
-            <div class="card">
-                <h2 class="text-lg font-medium text-slate-900 dark:text-white mb-4">2. Custom Components</h2>
-                <p class="mb-4">We can create reusable components with Tailwind's utility classes.</p>
-                
-                <!-- Using the custom card component defined in our CSS -->
-                <div class="flex flex-wrap gap-4 mt-6">
-                    <div class="flex-center p-6 bg-emerald-500 rounded-lg w-32 h-32 shadow-2xl">
-                        <span class="text-white">Flex Center</span>
-                    </div>
-
-                    <div class="flex-center p-6 bg-red-500 rounded-lg w-32 h-32 shadow-2xl">
-                        <span class="text-white">Utility</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Section 3: Dark Mode Support -->
-        <section class="mb-12">
-            <div class="card">
-                <h2 class="text-lg font-medium text-slate-900 dark:text-white mb-4">3. Dark Mode Support</h2>
-                <p class="mb-4">Tailwind makes implementing dark mode simple with the dark: variant.</p>
-                
-                <div class="rounded-lg border border-gray-300 dark:border-gray-600 p-6 mt-6">
-                    <h3>Automatic Dark Mode</h3>
-                    <p>This example uses the 'dark' class toggle. In a real application, you can also use the 'media' strategy to respond to system preferences.</p>
-                    
-                    <div class="mt-4 p-4 bg-slate-100 dark:bg-slate-800 rounded-md">
-                        <p class="text-slate-900 dark:text-white">This content automatically adapts to dark mode.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Section 4: Custom Utilities and Theme Extension -->
-        <section class="mb-12">
-            <div class="card">
-                <h2 class="text-lg font-medium text-slate-900 dark:text-white mb-4">4. Custom Utilities and Colors</h2>
-                <p class="mb-4">Tailwind allows extending the default theme with custom colors and utilities.</p>
-                
-                <div class="mt-6 space-y-4">
-                    <!-- Custom color from theme extension -->
-                    <div class="p-4 bg-brightamber rounded-md">
-                        <p>This uses our custom brightamber color defined in the theme.</p>
-                    </div>
-                    
-                    <!-- Custom utility class -->
-                    <div class="p-4 radial-blue rounded-md">
-                        <p>This uses our custom radial-blue utility class.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Section 5: Advanced Features -->
-        <section class="mb-12">
-            <div class="card">
-                <h2 class="text-lg font-medium text-slate-900 dark:text-white mb-4">5. Interactive Elements</h2>
-                <p class="mb-4">Tailwind makes it easy to style interactive components with state variants.</p>
-                
-                <!-- Accordion using details/summary with Tailwind styling -->
-                <details class="mt-4 border rounded-lg overflow-hidden">
-                    <summary class="selection:bg-green-500 p-3 text-sm font-medium bg-brightamber rounded-md hover:bg-amber-700 cursor-pointer">
-                        Click to expand this accordion
-                    </summary>
-                    <div class="p-4 bg-white dark:bg-black">
-                        <p>This uses the native details/summary elements with Tailwind styling.</p>
-                        <p class="mt-2">Note how we use the selection: variant to style the text selection.</p>
-                    </div>
-                </details>
-
-                <!-- Button with various states -->
-                <div class="mt-6">
-                    <button class="px-4 py-2 bg-brightamber hover:bg-amber-700 active:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brightamber rounded-md transition-colors">
-                        Interactive Button
-                    </button>
-                    <p class="mt-2 text-sm text-slate-500 dark:text-blue-100">
-                        Try hovering, focusing, and clicking this button to see different states.
-                    </p>
-                </div>
-            </div>
-        </section>
-    </main>
-
-</body>
-
+    <link href="./output.css" rel="stylesheet">
+</head>
 <body class = "min-h-screen grid place-content-center radial-blue">
     <div class="bg-emerald-500 w-52 h-52 rounded-full shadow-2xl grid place-content-center" >
         <div class="bg-teal-200 w-32 h-32 rounded-full grid place-content-center">
             <div class="bg-red-500 w-16 h-16 rounded-full"></div>
         </div>
-    </div>
-</body>
 ```
 
+```bash
+    <div class="card flex-center">
+        <button id="toggleDark" 
+            class="px-4 py-2 text-sm font-medium mt-8 bg-brightamber rounded-md hover:bg-amber-700 min-w-[100px]"
+            onClick="document.body.classList.toggle('dark')"
+        >Button</button>
+    </div>
+    
+    <div>
+        <details class=" card flex-center mt-4 border rounded-lg overflow-hidden">
+                    <summary class="selection:bg-green-500 p-3 text-sm font-medium mt-8 bg-brightamber rounded-md hover:bg-amber-700 min-w-[100px] cursor-pointer">
+                        Click to expand
+                    </summary>
+                    <div class="p-3">
+                        <p>hidden content which you can now see.</p>
+                    </div>
+    
+    </div>
+```
+
+
+
+**Example Explanation:**
+To exemplify this, I chose to show code chunks from the Tailwind tutorials completed earlier this semester. These chunks exemplify Tailwind by using the utility classes directly in HTML. Specifically, in the first chunk, you can see that I used the classes `w-52` `h-52` `rounded-full shadow-2xl` `grid` and `place-content-center` to create a centered layout with colors and shadows with minimal code and documents. In the second chunk, I used Tailwind to create a button that changes colors when the user hovers over it, as well as a stylized expandable section with hidden text. 
 
 
 ### ShadCN/UI
 
+**Tool Description:**
+ShadCN/UI is a component library built for React using Tailwind CSS and Radix Primatives. The library provides well-designed and accessible components for UI development, which follow modern design principles and can be easily implemented into a website.
+
 ```bash
-import {
-  Table,
-  TableBody,
-  TableCaption,
-  TableCell,
-  TableFooter,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from "@/components/ui/table";
-```
-```bash
-export function TableDemo() {
+import { Button } from "@/components/ui/button"
+
+function App() {
   return (
-    <Table>
-      <TableCaption>A list of your recent invoices.</TableCaption>
-      <TableHeader>
-        <TableRow>
-          <TableHead className="w-[100px]">Invoice</TableHead>
-          <TableHead>Status</TableHead>
-          <TableHead>Method</TableHead>
-          <TableHead className="text-right">Amount</TableHead>
-        </TableRow>
-      </TableHeader>
-      <TableBody>
-        {invoices.map((invoice) => (
-          <TableRow key={invoice.invoice}>
-            <TableCell className="font-medium">{invoice.invoice}</TableCell>
-            <TableCell>{invoice.paymentStatus}</TableCell>
-            <TableCell>{invoice.paymentMethod}</TableCell>
-            <TableCell className="text-right">{invoice.totalAmount}</TableCell>
-          </TableRow>
-        ))}
-      </TableBody>
-      <TableFooter>
-        <TableRow>
-          <TableCell colSpan={3}>Total</TableCell>
-          <TableCell className="text-right">$2,500.00</TableCell>
-        </TableRow>
-      </TableFooter>
-    </Table>
-  );
+    <div className="flex flex-col items-center justify-center min-h-svh gap-4">
+      <div className="flex gap-4">
+        <Button variant="default">Default</Button>
+        <Button variant="secondary">Secondary</Button>
+        <Button variant="destructive">Destructive</Button>
+      </div>
+      <div className="flex gap-4">
+        <Button variant="outline">Outline</Button>
+        <Button variant="ghost">Ghost</Button>
+        <Button variant="link">Link</Button>
+      </div>
+      <div className="flex gap-4 items-center">
+        <Button size="sm">Small</Button>
+        <Button size="default">Default Size</Button>
+        <Button size="lg">Large</Button>
+      </div>
+      <div className="flex gap-4">
+        <Button variant="outline" disabled>
+          Disabled
+        </Button>
+        <Button variant="outline" asChild>
+          <a href="https://github.com" target="_blank">Link Button</a>
+        </Button>
+        <Button className="w-32" variant="secondary" disabled>
+          Processing...
+        </Button>
+      </div>
+    </div>
+  )
 }
 ```
+
+
+**Example Explanation:**
+Similar to the Bootstrap example, I didn’t like any of my previous creations with ShadCN, so I worked with Copilot to create this example. In this, I exemplify the ShadCN button designs. This example shows how these buttons are both reusable and customizable in that we can easily change the style. They are also flexible as they can accept props such as `variant` and `size`. Finally, this example shows the Tailwind styling with “className=" flex flex-col items-center justify-center min-h-svh gap-4"” which is a key part of design with ShadCN. 
 
 
 
 ### Design for user experience (Krug)
 
+**Description:**
+Throughout the semester, we read Steven Krug's book Design for User Experience. This book discusses principles that should be followed in website design so as to allow the user to navigate it without confusion or unnecessary clicks. 
+
+
+Find my full reading notes [HERE](/Users/micahsheats/Desktop/DCS325Final-1/Krug Reading Notes/Sheats_Dont Make Me Think Reading Notes (2).pdf)
+
+![Krug example](./Krug Reading Notes/krug.png)
+
+These principles were best applied when we created our final project: a worksheet for potential and current DCS majors. This site exemplifies the principles of the book by being intuitive to the user and not making the user think anymore than they need to in order to navigate the site. We did this by putting the information in a logical order, breaking the page up into clearly defined hierarchies, having all parts of the site no more than one or two clicks away from the index, and providing brief and unavoidable guidance when it was necessary and relevant such as the warnings when a class could only be used to fufuill two of the four methods but was catagorized under more. 
+
+
+
 
 
 ### Accessibility
 
+**Description:**
 
+Programming for ccessibility ensures that websites are usable by people with disabilities or assistive technologies. There are several ways in which we incorporated programming for accessibility throughout the course, including semantic HTML, alternate text for images, keyboard navigation support so that someone with limited or no mouse capabilities can tab through the site, screenreader labels, and ARIA attributes.  
+
+**Using the Colorblindly Chrome extension to test our final project:**
+
+![Image of Colorblindly](./Accessability_Example/colorblindly.png)
+
+
+**Example Explanation:**
+One way in which I included accessibility into my programming in this class was by using the Colorblindly Chrome Extension to ensure that my sites were usable for people with color blindness. This extension simulates what looking at the site would be like with different color blindnesses. This is helpful because I can see if there is a problem with a visualization, such that a colorblind person would not be able to use our site to the same extent as a person who is not colorblind could. 
 
 
 ### Figma
 
+**Tool Description:**
+Figma is a design and prototyping tool used to create wireframes, UI mockups, and interactive prototypes. Through this site, developers can collaborate in real time to plan layouts and website designs before actually coding. 
+
+
+![Figma example](./Figma_Example/figma.png)
+
+
+
+**Example Explanation:**
+One way that I used Figma this semester was to create a mockup of our final project before coding it. Through this prototype, my team and I were able to discuss and uncover optimal flows for the user interface to make it as seamless as possible of an experience for the user. The biggest influence this process had on the final site is that through this prototyping, we decided to include hover pop-ups with pre-requisites and course descriptions, which became one of the main attractions of our site by the presentation of our final product.
+
+
 
 
 ### Cursor
+
+**Tool Description:**
+Cursor is an AI-powered code editor with built-in AI tools for code generation and debugging using natural language prompts. This can greatly improve coding speeds through AI explanations of what code is doing, suggestions on how to debug it, and even editing it when in “agent” mode. 
+
+``` bash
+import React, { useState, useEffect, useCallback } from "react";
+
+type Position = {
+  x: number;
+  y: number;
+};
+
+const GRID_SIZE = 20;
+const CELL_SIZE = 20;
+const INITIAL_SNAKE = [{ x: 10, y: 10 }];
+const INITIAL_DIRECTION = { x: 1, y: 0 };
+const GAME_SPEED = 150;
+
+export const SnakeGame: React.FC = () => {
+  const [snake, setSnake] = useState<Position[]>(INITIAL_SNAKE);
+  const [food, setFood] = useState<Position>({ x: 15, y: 15 });
+  const [direction, setDirection] = useState(INITIAL_DIRECTION);
+  const [isGameOver, setIsGameOver] = useState(false);
+  const [score, setScore] = useState(0);
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const generateFood = useCallback(() => {
+    const newFood = {
+      x: Math.floor(Math.random() * GRID_SIZE),
+      y: Math.floor(Math.random() * GRID_SIZE),
+    };
+    setFood(newFood);
+  }, []);
+
+  const resetGame = () => {
+    setSnake(INITIAL_SNAKE);
+    setDirection(INITIAL_DIRECTION);
+    setIsGameOver(false);
+    setScore(0);
+    generateFood();
+    setIsPlaying(true);
+  };
+  
+  ```
+  
+Image of the site build by cursor:
+![Image of the site built by Cursor](./Cursor%20Example/cursorsite.png)
+
+
+**Example Explanation:**
+The above example is a website that I built solely through prompts to the cursor. When building this, Cursor was able to take an image of the Apple Store home screen and apply the style to the site, as well as include a fully functional game of Snake. In total, the site took probably 10 minutes to complete, far less than if I were to build it myself. 
+
 
 
 
 
 ### Google Firebase for backend
 
+**Tool Description:**
+
+Google Firebase is a Backend Service platform which offers services including authentication, cloud storage, real-time databases, and hosting. It allows frontend developers to add their own backend services without having to deal with the complex issues that come with managing your own server infrastructure. 
+
+
+```bash
+npm install firebase
+```
+
+```bash
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyDTLNGfp_9625aWfXjVfbkgS0lNdI2zmok",
+  authDomain: "test-63c82.firebaseapp.com",
+  projectId: "test-63c82",
+  storageBucket: "test-63c82.firebasestorage.app",
+  messagingSenderId: "319192943768",
+  appId: "1:319192943768:web:6425c8efd02805910b14ed",
+  measurementId: "G-X9GYZ0HNML"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+```
+
+**Example Explanation:**
+This code is what is used to connect the web app on the front end to Google Firebases backend. This connection allows for things like authentication and analytics in a project, which can be useful from real-time user analytics to training AI models. 
 
 
 
 
+## Reflection Questions
+##### What was your experience in using React+Vite for building web apps compared to "rolling your own" using HTML, CSS, & JavaScript?
+
+- I enjoyed both in separate ways. First, I enjoyed rolling out my own because it was relatively intuitive, as we had to learn and build everything from the ground up. I also enjoyed using React, however, because of the automated aspect and pre-packaged things we could use to make the website look good. React was also much harder for me to understand, however, so that was a negative because it caused much more stress. In all, though, I would definitely trend towards a React app should I try to build something after this class.  
 
 
 
+##### What are the primary takeaways you had from reading Krug's book and your corresponding analysis of sites?
+- The primary takeaways that I had from reading the book was that people who are using websites really do not want to think. As such, your website should be as intuitive as it can possibly be for the best UX. Furthermore, people are not reading everything on your website, they are skimming, so it is generally best to make the website skimmable. Finally, it is important to give the user the sense of whether they are on the right track or not. Do not use many words when few will do, and do not give the user too many options at one time.
 
 
+##### What is the importance of accessibility (give a few explicit examples), and what steps can (and should) you take in assessing the accessibility of your site?
 
+- Accessibility is important because, as developers, we want everybody to be able to use the website regardless of impairments. Specifically, if someone can’t use their mouse, they should be able to navigate our site by using the tab key. If someone is blind, they should be able to use a screen reader to interpret what is on the page, including images, which should have alt text. And if someone is colorblind, they should still be able to differentiate the colors in visualization through us using colorblind friendly colors. 
+
+
+##### In what ways did the different design sprints, and use of Figma, help you in thinking about what an end product should look like and how it should function?
+
+- The design sprints and Figma were great for solidifying ideas before beginning to code. Coding often feels very intimidating to me, so having a plan going in of exactly what needs to be done and what the final product should look like was really helpful for overcoming that. Furthermore, creating the prototypes gave us time to discuss concepts and flesh out ideas rather than having to make adjustments in the middle of creating the actual product. 
+
+
+##### What takeaways do you have from working with AI/LLMs through Cursor (or similar) in building web applications?
+
+- The main takeaway from using LLMs is that they quickly becoming a great tool for coding. It was very impressive to watch Cursor create an entire working site in a couple of minutes with minimal guidance. However, it also highlighted the importance of knowing how the code actually works because there were several times throughout the semester where Copilot or Cursor would get stuck going in circles when in reality the problem was as simple as a parenthesis imbalance or an undefined variable. 
+
+
+##### What was your favorite thing (or deemed most useful) that we covered this semester, and why?
+
+- The favorite thing that I learned this semester was the basics of how the development works in terms of tools, workflows, and team environments. I don’t have any plans to go into a coding-heavy web design role right now, but I will likely work alongside some teams with this focus after college. I think that having a basic understanding of what is going on in their process and with their team could prove incredibly helpful in communicating with them and achieving the goals of everyone involved.
+
+
+##### What do you wish we had covered, or had covered in more detail, and why?
+
+- One thing that I wish we had covered in more detail is React. While the tutorial was definitely helpful, it was a lot of information all at once, and it would have been very helpful to have a bit slower of an introduction to the library and all the things/processes that surround it. 
 
 
 
