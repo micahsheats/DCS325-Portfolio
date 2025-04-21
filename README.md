@@ -233,7 +233,7 @@ Secure Shell allows for secure remote access and file transfer. This protocol al
 
 
 
-Key Creation
+**Key Creation**
 ```bash
 % ssh-keygen
 Generating public/private rsa key pair.
@@ -255,7 +255,7 @@ id_rsa       	id_rsa.pub
 %
 ```
 
-Using the key to login
+**Using the key to login**
 ```bash
 % cd ~/.ssh
 % ls
@@ -470,7 +470,7 @@ Throughout the semester, we read Steven Krug's book Design for User Experience. 
 
 Find my full reading notes [HERE](/Users/micahsheats/Desktop/DCS325Final-1/Krug Reading Notes/Sheats_Dont Make Me Think Reading Notes (2).pdf)
 
-![Krug example](./Krug Reading Notes/krug.png)
+![Example of Design for User Experience ](./Krug Reading Notes/krug.png)
 
 These principles were best applied when we created our final project: a worksheet for potential and current DCS majors. This site exemplifies the principles of the book by being intuitive to the user and not making the user think anymore than they need to in order to navigate the site. We did this by putting the information in a logical order, breaking the page up into clearly defined hierarchies, having all parts of the site no more than one or two clicks away from the index, and providing brief and unavoidable guidance when it was necessary and relevant such as the warnings when a class could only be used to fufuill two of the four methods but was catagorized under more. 
 
@@ -486,7 +486,7 @@ Programming for ccessibility ensures that websites are usable by people with dis
 
 **Using the Colorblindly Chrome extension to test our final project:**
 
-![Image of Colorblindly](./Accessability_Example/colorblindly.png)
+![Image of Colorblindly in action](./Accessability_Example/colorblindly.png)
 
 
 **Example Explanation:**
@@ -499,7 +499,7 @@ One way in which I included accessibility into my programming in this class was 
 Figma is a design and prototyping tool used to create wireframes, UI mockups, and interactive prototypes. Through this site, developers can collaborate in real time to plan layouts and website designs before actually coding. 
 
 
-![Figma example](./Figma_Example/figma.png)
+![Image of Figma example](./Figma_Example/figma.png)
 
 
 
@@ -555,7 +555,7 @@ export const SnakeGame: React.FC = () => {
   
   ```
   
-Image of the site build by cursor:
+**Image of the site build by cursor:**
 ![Image of the site built by Cursor](./Cursor%20Example/cursorsite.png)
 
 
