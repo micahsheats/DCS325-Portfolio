@@ -570,7 +570,7 @@ export const SnakeGame: React.FC = () => {
   ```
   
 **Image of the site build by cursor:**
-![Image of the site built by Cursor](./Cursor%20Example/cursorsite.png)
+![Image of the site built by Cursor](./Cursor_Example/cursorsite.png)
 
 
 **Example Explanation:**
