@@ -479,7 +479,9 @@ Throughout the semester, we read Steven Krug's book Design for User Experience. 
 
 Find my full reading notes [HERE](/Users/micahsheats/Desktop/DCS325Final-1/Krug Reading Notes/Sheats_Dont Make Me Think Reading Notes (2).pdf)
 
+
 ![Example of Design for User Experience ](./Krug Reading Notes/krug.png)
+
 
 These principles were best applied when we created our final project: a worksheet for potential and current DCS majors. This site exemplifies the principles of the book by being intuitive to the user and not making the user think anymore than they need to in order to navigate the site. We did this by putting the information in a logical order, breaking the page up into clearly defined hierarchies, having all parts of the site no more than one or two clicks away from the index, and providing brief and unavoidable guidance when it was necessary and relevant such as the warnings when a class could only be used to fufuill two of the four methods but was catagorized under more. 
 
@@ -490,7 +492,6 @@ These principles were best applied when we created our final project: a workshee
 ### Accessibility
 
 **Description:**
-
 Programming for ccessibility ensures that websites are usable by people with disabilities or assistive technologies. There are several ways in which we incorporated programming for accessibility throughout the course, including semantic HTML, alternate text for images, keyboard navigation support so that someone with limited or no mouse capabilities can tab through the site, screenreader labels, and ARIA attributes.  
 
 **Using the Colorblindly Chrome extension to test our final project:**
@@ -578,7 +579,6 @@ The above example is a website that I built solely through prompts to the cursor
 ### Google Firebase for backend
 
 **Tool Description:**
-
 Google Firebase is a Backend Service platform which offers services including authentication, cloud storage, real-time databases, and hosting. It allows frontend developers to add their own backend services without having to deal with the complex issues that come with managing your own server infrastructure. 
 
 
