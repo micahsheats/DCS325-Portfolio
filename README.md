@@ -429,7 +429,7 @@ To exemplify this, I chose to show code chunks from the Tailwind tutorials compl
 ShadCN/UI is a component library built for React using Tailwind CSS and Radix Primatives. The library provides well-designed and accessible components for UI development, which follow modern design principles and can be easily implemented into a website.
 
 
-See full ShadCN/UI code [HERE](https://github.com/micahsheats/DCS325-Portfolio/tree/main/ShadCN%20Example)
+See full ShadCN/UI code [HERE](https://github.com/micahsheats/DCS325-Portfolio/tree/main/ShadCN_Example)
 ```bash
 import { Button } from "@/components/ui/button"
 
@@ -527,7 +527,7 @@ One way that I used Figma this semester was to create a mockup of our final proj
 Cursor is an AI-powered code editor with built-in AI tools for code generation and debugging using natural language prompts. This can greatly improve coding speeds through AI explanations of what code is doing, suggestions on how to debug it, and even editing it when in “agent” mode. 
 
 
-See full Cursor Website code [HERE](https://github.com/micahsheats/DCS325-Portfolio/tree/main/Cursor%20Example)
+See full Cursor Website code [HERE](https://github.com/micahsheats/DCS325-Portfolio/tree/main/Cursor_Example)
 ``` bash
 import React, { useState, useEffect, useCallback } from "react";
 
